@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "babel-node hello"
+    "demo": "babel -d compiled *.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",

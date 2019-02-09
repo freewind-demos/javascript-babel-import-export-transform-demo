@@ -1,3 +1,3 @@
-import User from './user';
+import * as util from './util'
 
-new User('Freewind').hello();
+console.log(`Hello, ${util.toUpper('babel')}`);
